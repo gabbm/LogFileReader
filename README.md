@@ -1,11 +1,10 @@
-# LogFileReader
 Spring Boot command line application that reads log registries in JSON format from an external file.
 
-Requirements:
+## Requirements
  - JDK 8
  - HSQLDB server instance running (provided library and instructions)
 
-Running the tests (not necessary to have the HSQLDB server instance running):
+## Running the tests (not necessary to have the HSQLDB server instance running)
  - Download/Clone the folder log-reader
  - Navigate to its root:
 ```
@@ -16,7 +15,7 @@ cd C:\log-reader
 mvn test
 ```
 
-Preparation:
+## Preparation
  - Create a new folder where the database files are going to be stored
  - Copy the jar file in the lib folder (hsqldb.jar) to the new folder
  - Execute the following command to start the HSQLDB server with the default configuration:
@@ -24,7 +23,7 @@ Preparation:
 java -cp .\hsqldb.jar org.hsqldb.Server -database.0 file:testdb -dbname.0 testdb
 ```
 
-Runing the application:
+## Runing the application
  - Download/Clone the folder log-reader
  - Navigate to its root:
 ```
