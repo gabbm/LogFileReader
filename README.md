@@ -22,7 +22,7 @@ mvn test
 ```
 java -cp .\hsqldb.jar org.hsqldb.Server -database.0 file:testdb -dbname.0 testdb
 ```
- - (Optional) An initial sql script is provided to drop and recreate the needed table. Also, it includes a new index to control that the Event IDs are unique. This step is not mandatory, the application will create/update the table if it does not exist in the database.
+ - (Optional) An initial sql script is provided to drop and recreate the needed table. Also, it includes a new index to control that the Event IDs are unique. It can be find inside the log-reader/src/main/resources/db folder. This step is not mandatory, the application will create/update the table if it does not exist in the database.
 
 ## Runing the application
  - Download/Clone the folder log-reader
